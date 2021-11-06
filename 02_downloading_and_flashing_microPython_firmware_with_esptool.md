@@ -23,15 +23,13 @@ The easist way to check which port to use for connecting to the ESP32 on a mac i
 ```ls /dev/tty*```  
 Now you will something like this ```/dev/tty.usbserial-1410```
 
-
-## test 
-![Kitten](/images/thonny_interpreter_01.png "thonny interpreter settings")
-
-
-## Erase the flash
-If you are putting MicroPython on your board for the first time then you should first erase the entire flash using the following command in the terminal  
-```esptool.py --chip esp32 --port /dev/tty.usbserial-1410 erase_flash```
-
 ## Flashing MicroPython Firmware on ESP32
+Open the preferences of the Thonny EDI and choose in the first dropdown the option 'MicroPython (ESP32)' and in the second dropdown select the port to connect to the esp32.  
+![Thonny interpreter settings -thumbnail](/images/thonny_interpreter_01.png "thonny interpreter settings")
+
+
+
+
+
 Open a terminal where the firmwhare is downloaded and use the following command to flash MicroPython Firmware on ESP32  
 ```esptool.py --chip esp32 --port /dev/tty.usbserial-1410 --baud 115200 write_flash -z 0x1000 esp32-20210902-v1.17.bin``` 
