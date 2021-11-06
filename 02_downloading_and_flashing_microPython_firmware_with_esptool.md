@@ -29,4 +29,4 @@ If you are putting MicroPython on your board for the first time then you should 
 
 ## Flashing MicroPython Firmware on ESP32
 Open a terminal where the firmwhare is downloaded and use the following command to flash MicroPython Firmware on ESP32  
-```esptool.py --chip esp32 --port /dev/tty.usbserial-1410 --baud 115200 write_flash -z 0x1000 esp32-20210902-v1.17.bin````  
+```esptool.py --chip esp32 --port /dev/tty.usbserial-1410 --baud 115200 write_flash -z 0x1000 esp32-20210902-v1.17.bin``` 
