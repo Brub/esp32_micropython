@@ -17,3 +17,8 @@ With esptool.py installed in your computer, you can easily flash your ESP32 or E
 
 ## Downloading MicroPython Firmware for ESP32
 To download the latest version of MicroPython firmware for the ESP32, go to the [MicroPython Downloads page](https://micropython.org/download/#esp32) and scroll all the way down to the ESP32 section.
+
+## Define which port to use
+The easist way to check which port to use for connecting to the ESP32 on a mac is to run the following command in the terminal without connected and connected esp32
+```ls /dev/tty*```  
+Now you will something like this ```/dev/tty.usbserial-1410```
