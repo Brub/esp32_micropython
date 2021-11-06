@@ -25,8 +25,8 @@ Now you will something like this ```/dev/tty.usbserial-1410```
 
 ## Flashing MicroPython Firmware on ESP32
 Open the preferences of the Thonny EDI and choose in the first dropdown the option 'MicroPython (ESP32)' and in the second dropdown select the port to connect to the esp32.  
-![Thonny interpreter settings -thumbnail](/images/thonny_interpreter_01.png "thonny interpreter settings")
-
+![Thonny interpreter settings -thumbnail](/images/thonny_interpreter_01.png "thonny interpreter settings")  
+Click now on the 'Install or update firmware' option of the screen.  
 
 
 
