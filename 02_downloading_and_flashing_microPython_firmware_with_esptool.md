@@ -22,3 +22,7 @@ To download the latest version of MicroPython firmware for the ESP32, go to the 
 The easist way to check which port to use for connecting to the ESP32 on a mac is to run the following command in the terminal without connected and connected esp32
 ```ls /dev/tty*```  
 Now you will something like this ```/dev/tty.usbserial-1410```
+
+## Erase the flash
+If you are putting MicroPython on your board for the first time then you should first erase the entire flash using the following command in the terminal  
+```esptool.py --chip esp32 --port /dev/tty.usbserial-1410 erase_flash```
