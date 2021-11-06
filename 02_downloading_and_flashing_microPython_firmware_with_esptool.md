@@ -13,3 +13,5 @@ In your Terminal, run the following command:
 
 ```esptool.py```
 
+With esptool.py installed in your computer, you can easily flash your ESP32 or ESP8266 boards with the MicroPython firmware.
+
