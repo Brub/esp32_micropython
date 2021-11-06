@@ -1,4 +1,5 @@
 # Thonny IDE
+_Python IDE for beginners_
 
 https://thonny.org/
 
