@@ -16,4 +16,4 @@ In your Terminal, run the following command:
 With esptool.py installed in your computer, you can easily flash your ESP32 or ESP8266 boards with the MicroPython firmware.
 
 ## Downloading MicroPython Firmware for ESP32
-To download the latest version of MicroPython firmware for the ESP32, go to the MicroPython Downloads page (https://micropython.org/download/#esp32) and scroll all the way down to the ESP32 section.
+To download the latest version of MicroPython firmware for the ESP32, go to the [MicroPython Downloads page](https://micropython.org/download/#esp32) and scroll all the way down to the ESP32 section.
