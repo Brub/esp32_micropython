@@ -8,3 +8,8 @@ To work with esptool.py, you’ll need either Python 3.7.
 
 ```pip3 install esptool```
 
+After installing, you will have esptool.py installed into the default Python executables directory and you should be able to run it with the command esptool.py.  
+In your Terminal, run the following command:
+
+```esptool.py```
+
