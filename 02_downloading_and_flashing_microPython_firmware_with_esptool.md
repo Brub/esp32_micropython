@@ -26,3 +26,7 @@ Now you will something like this ```/dev/tty.usbserial-1410```
 ## Erase the flash
 If you are putting MicroPython on your board for the first time then you should first erase the entire flash using the following command in the terminal  
 ```esptool.py --chip esp32 --port /dev/tty.usbserial-1410 erase_flash```
+
+## Flashing MicroPython Firmware on ESP32
+Open a terminal where the firmwhare is downloaded and use the following command to flash MicroPython Firmware on ESP32  
+```esptool.py --chip esp32 --port /dev/tty.usbserial-1410 --baud 115200 write_flash -z 0x1000 esp32-20210902-v1.17.bin````  
